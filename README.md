@@ -22,4 +22,4 @@ instance.makeNewContact("sample name", "sample number")
 instance.getContactInfo(1)
 ```
 
-### 4. Enjoy! :-)
+### 3. Enjoy! :-)
