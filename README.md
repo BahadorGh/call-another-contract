@@ -22,6 +22,7 @@ instance.makeNewContact("sample name", "sample number")
 instance.getContactInfo(1)
 ```
 
-### Current Todos:
-- [x] Create UI
+### Todo:
+- [x] Develop Smart Contracts
+- [ ] Create UI
   - [ ] Connect to UI
