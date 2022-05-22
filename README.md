@@ -22,4 +22,6 @@ instance.makeNewContact("sample name", "sample number")
 instance.getContactInfo(1)
 ```
 
-### 3. Enjoy! :-)
+### Todo:
+- [ ] Create UI
+  - [ ] Connect to UI
