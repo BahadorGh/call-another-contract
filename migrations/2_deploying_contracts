@@ -1,0 +1,17 @@
+const ContactsContract = artifacts.require("Contacts");
+const ContactCallerContract = artifacts.require("ContactCall");
+
+// if no dependencies...
+// module.exports = function (deployer) {
+//   deployer.deploy(ContactsContract);
+//   deployer.deploy(ContactCallerContract);
+// };
+
+
+// if have dependencies(as we are doing here)...
+// like a constructor argument that takes an address of another deployed contract:
+module.exports = function(deployer){
+  deployer.deploy(ContactsContract).then(async () => {
+    await deployer.deploy(ContactCallerContract, ContactsContract.address);
+  })
+}
